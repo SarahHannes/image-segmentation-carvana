@@ -1,6 +1,6 @@
-# Image Segmentation
+# Image Segmentation <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/SarahHannes/image-segmentation-carvana/main/image_segmentation_carvana.html">[Code]</a>
 
-Image segmentation using modified UNET. Dataset is obtained from <a href="https://www.kaggle.com/c/carvana-image-masking-challenge">Kaggle</a>.
+Image segmentation using modified UNET. Dataset is obtained from <a href="https://www.kaggle.com/c/carvana-image-masking-challenge">Kaggle</a>. Data is split into train and test set in 80:20 ratio.
 
 #### Example of original data
 <img src="plot/data_example.jpg" width="600">
@@ -18,20 +18,23 @@ Image segmentation using modified UNET. Dataset is obtained from <a href="https:
 #### Model architecture summary
 <img src="plot/model.png" width="600">
 
-#### Predictions at end of epoch 1
+#### Prediction at end of epoch 1
 <img src="plot/epoch1_predictions.jpg" width="600">
 
-#### Predictions at end of epoch 5
+#### Prediction at end of epoch 5
 <img src="plot/epoch5_predictions.jpg" width="600">
 
-#### Predictions at end of epoch 10
+#### Prediction at end of epoch 10
 <img src="plot/epoch10_predictions.jpg" width="600">
 
-#### Predictions at end of epoch 15
+#### Prediction at end of epoch 15
 <img src="plot/epoch15_predictions.jpg" width="600">
 
-#### Predictions at end of epoch 20
+#### Prediction at end of epoch 20
 <img src="plot/epoch20_predictions.jpg" width="600">
+
+#### Predictions on test data
+<img src="plot/test_data_predictions.jpg" width="600">
 
 #### Accuracy
 <img src="plot/accuracy.jpg" width="600">
